@@ -1,0 +1,11 @@
+CREATE DATABASE intelatlas;
+
+USE intelatlas;
+
+CREATE TABLE `userlist` ( 
+	`id` INT NOT NULL AUTO_INCREMENT , 
+	`name` VARCHAR(500) NOT NULL , 
+	`email` VARCHAR(200) NOT NULL , 
+	`password` VARCHAR(500) NOT NULL , 
+	PRIMARY KEY (`id`)
+) ENGINE = InnoDB;

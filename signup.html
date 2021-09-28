@@ -66,17 +66,17 @@
 					
 					<div class="input-group nm-gp">
 						<span class="nm-gp-pp"><i class="fas fa-user"></i></span>
-						<input type="text" class="form-control" id="inputName" tabindex="1" placeholder="Name" autocomplete="off" required>
+						<input type="text" class="form-control" id="inputName" tabindex="1" placeholder="Full name" autocomplete="off" maxlength="500" required>
 					</div>
 					
 					<div class="input-group nm-gp">
 						<span class="nm-gp-pp"><i class="fas fa-envelope-open"></i></span>
-						<input type="email" class="form-control" id="inputEmail" tabindex="2" placeholder="Email" autocomplete="off" required>
+						<input type="email" class="form-control" id="inputEmail" tabindex="2" placeholder="Email" autocomplete="off" maxlength="200" required>
 					</div>
 
 					<div class="input-group nm-gp">
 						<span class="nm-gp-pp"><i class="fas fa-lock"></i></span>
-						<input type="password" class="form-control" id="inputPassword" tabindex="3" placeholder="Password" required>
+						<input type="password" class="form-control" id="inputPassword" tabindex="3" placeholder="Password" maxlength="50" required>
 					</div>
 	
 					<div class="input-group nm-gp">
@@ -88,7 +88,7 @@
 
 					<div class="row nm-aic nm-mb-1">
 						<div class="d-grid gap-2 col-6 mx-auto nm-mb-1 nm-mb-sm-0">
-							<button type="submit" class="btn btn-primary nm-hvr nm-btn-2">Sign Up</button>
+							<button type="submit" id="btnSignup" class="btn btn-primary nm-hvr nm-btn-2">Sign Up</button>
 						</div>
 					</div>
 
@@ -107,6 +107,7 @@
 
 	<!-- Template JS files // -->
 	<script src="js/script.js"></script>
+	<script src="js/signup.js"></script>
 	<!-- Template JS files // -->
 </body>
 </html>
